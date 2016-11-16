@@ -1,0 +1,66 @@
+﻿Build started 4/28/2016 1:41:53 AM.
+     1>Project "H:\My Documents\Visual Studio 2013\Projects\cse452files\cse452\cse452shell\cse452shell.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /Ivecmath /I. /Zi /nologo /W0 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\config\\" /Fd"..\..\config\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GLWindow.cpp ShellInterface.cpp interactive\InteractiveInterface.cpp interactive\InteractiveUI.cpp interactive\MyScene_select.cpp main.cpp rendering\MyScene_render.cpp rendering\RenderingInterface.cpp rendering\RenderingUI.cpp sceneview\MyScene.cpp sceneview\MyScene_draw.cpp sceneview\SceneviewInterface.cpp sceneview\SceneviewUI.cpp
+         GLWindow.cpp
+         ShellInterface.cpp
+         InteractiveInterface.cpp
+         InteractiveUI.cpp
+         MyScene_select.cpp
+         main.cpp
+         MyScene_render.cpp
+         RenderingInterface.cpp
+         RenderingUI.cpp
+         MyScene.cpp
+         MyScene_draw.cpp
+         SceneviewInterface.cpp
+         SceneviewUI.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(H:\My Documents\Visual Studio 2013\Projects\cse452files\cse452\cse452shell\..\..\config\cse452shell.exe) does not match the Linker's OutputFile property value (H:\My Documents\Visual Studio 2013\Projects\cse452files\cse452\cse452shell\cse452shell.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"cse452shell.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\libs\Win32 msvcprt.lib msvcrt.lib fltk.lib fltkpng.lib fltkjpeg.lib fltkz.lib fltkgl.lib fltkimages.lib opengl32.lib glu32.lib wsock32.lib comctl32.lib odbc32.lib odbccp32.lib OLDNAMES.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\config\cse452shell.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\config\cse452shell.lib" /MACHINE:X86 /SAFESEH ..\..\config\Cone.obj
+         ..\..\config\Cube.obj
+         ..\..\config\Cylinder.obj
+         ..\..\config\GLWindow.obj
+         ..\..\config\main.obj
+         ..\..\config\Shape.obj
+         ..\..\config\ShellInterface.obj
+         ..\..\config\SpecialShape1.obj
+         ..\..\config\SpecialShape2.obj
+         ..\..\config\Sphere.obj
+         ..\..\config\UIInterface.obj
+         ..\..\config\BrushInterface.obj
+         ..\..\config\MyBrush.obj
+         ..\..\config\MyBrush_UI.obj
+         ..\..\config\ShapesInterface.obj
+         ..\..\config\ShapesUI.obj
+         ..\..\config\MyScene_render.obj
+         ..\..\config\RenderingInterface.obj
+         ..\..\config\RenderingUI.obj
+         ..\..\config\Camera.obj
+         ..\..\config\CameraInterface.obj
+         ..\..\config\CameraUI.obj
+         ..\..\config\IBar.obj
+         ..\..\config\MyScene.obj
+         ..\..\config\MyScene_draw.obj
+         ..\..\config\SceneviewInterface.obj
+         ..\..\config\SceneviewUI.obj
+         ..\..\config\IntersectionInterface.obj
+         ..\..\config\IntersectionUI.obj
+         ..\..\config\InteractiveInterface.obj
+         ..\..\config\InteractiveUI.obj
+         ..\..\config\InteractiveWidget.obj
+         ..\..\config\MyScene_select.obj
+         ..\..\config\Matrix3.obj
+         ..\..\config\Matrix4.obj
+         ..\..\config\Point3.obj
+         ..\..\config\ScreenPoint.obj
+         ..\..\config\ScreenVector.obj
+         ..\..\config\Vector3.obj
+         ..\..\config\Vector4.obj
+         cse452shell.vcxproj -> H:\My Documents\Visual Studio 2013\Projects\cse452files\cse452\cse452shell\..\..\config\cse452shell.exe
+     1>Done Building Project "H:\My Documents\Visual Studio 2013\Projects\cse452files\cse452\cse452shell\cse452shell.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.92
